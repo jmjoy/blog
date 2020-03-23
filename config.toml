@@ -1,0 +1,38 @@
+baseURL = "/"
+languageCode = "zh-cn"
+title = "jmjoy"
+# copyright = ""
+theme = "diary"
+# googleAnalytics = "UA-123-45"
+
+[params]
+subtitle = "个人博客"
+enableGitalk = true
+
+[params.gitalk]
+  owner = "jmjoy"
+  repo = "blog"
+  client_id = "90ed59c280ebed50d9e0"
+  client_secret = "02317cd37079ef8ab99d6e7087942a1a5335e539"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
+
+[module]
+  [[module.mounts]]
+    source = "static"
+    target = "static/static"
