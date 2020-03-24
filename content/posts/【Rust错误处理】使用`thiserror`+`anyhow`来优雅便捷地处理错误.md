@@ -1,5 +1,5 @@
 ---
-title: "【Rust错误处理】使用+来优雅便捷地处理错误"
+title: "【Rust错误处理】使用`thiserror`+`anyhow`来优雅便捷地处理错误"
 date: 2020-03-08T17:37:00+08:00
 description: ""
 featured_image: ""

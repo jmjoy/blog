@@ -1,5 +1,5 @@
 ---
-title: "【Actix Web】优雅灵活的方法原理分析"
+title: "【Actix Web】优雅灵活的`Route::to`方法原理分析"
 date: 2020-03-04T18:32:00+08:00
 description: ""
 featured_image: ""
