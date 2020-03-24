@@ -32,8 +32,15 @@ weight = 3
 url = "/posts"
 name = "Archive"
 weight = 1
+[[menu.main]]
+url = "/about/"
+name = "About"
+weight = 4
 
 [module]
   [[module.mounts]]
     source = "static"
     target = "static/static"
+  [[module.mounts]]
+    source = "assets"
+    target = "static"
