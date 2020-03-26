@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2020-03-24T09:44:07+08:00
-description: ""
+description: "关于"
 featured_image: "/static/images/about.jpg"
 categories: ""
 tags: []

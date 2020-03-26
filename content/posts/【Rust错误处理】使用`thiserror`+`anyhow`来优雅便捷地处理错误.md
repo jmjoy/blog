@@ -20,7 +20,7 @@ Rust使用`Result`这个enum来代表正确或错误的情况，思路来源于`
         let one: Result<(), OneError> = fn_one();
         one?;
 
-        let two: Result<(), OneError> = fn_two();
+        let two: Result<(), TwoError> = fn_two();
         two?;
 
         Ok(())
