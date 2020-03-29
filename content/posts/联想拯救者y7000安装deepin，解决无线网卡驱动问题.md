@@ -2,8 +2,8 @@
 title: "联想拯救者y7000安装deepin 15.9，解决无线网卡驱动问题"
 date: 2019-01-22T13:15:13+08:00
 draft: false
-categories: ["linux"]
-tags: ["linux", "联想拯救者", "y7000", "deepin"]
+categories: ["Linux"]
+tags: ["Linux", "联想拯救者", "y7000", "Deepin"]
 typora-root-url: ../../../static
 ---
 

@@ -2,7 +2,7 @@
 date = "2017-01-11T12:26:29+08:00"
 draft = false
 title = "eav模型"
-categories = ["理论"]
+categories = ["其它"]
 +++
 
 ## EAV模型 ##
