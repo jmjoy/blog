@@ -29,4 +29,11 @@ jobs:
       with:
         extended: true
 
-    - run: hugo --gc --minify -b ${{ secrets.DEPLOY_HOST }}
+    - name: Hugo build
+      run: hugo --gc --minify -b ${{ secrets.DEPLOY_HOST }}
+    
+    - name: Zip
+      run: |
+        cd public
+        zip -r public.zip .
+        cd ..
